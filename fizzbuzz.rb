@@ -3,6 +3,6 @@
 def fizzbuzz(num)
   string = nil
   string = "Fizz" if (num % 3 == 0)
-  string = "Buzz" if (num % 5 == 0 && string != "Fizz") else string += "Buzz" 
+  string = "Buzz" if (num % 5 == 0 && string != "Fizz") else string += "Buzz"
   return string
 end
