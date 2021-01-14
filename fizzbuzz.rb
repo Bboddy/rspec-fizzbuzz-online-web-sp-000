@@ -2,8 +2,8 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(num)
   string = ""
-  string + "Fizz" if (num % 3 == 0)
-  string + "Buzz" if (num % 5 == 0)
+  string += "Fizz" if (num % 3 == 0)
+  string += "Buzz" if (num % 5 == 0)
   string = num if string.empty?
   return string
 end
