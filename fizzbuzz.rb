@@ -5,4 +5,5 @@ def fizzbuzz(num)
   string += "Fizz" if (num % 3 == 0)
   string += "Buzz" if (num % 5 == 0)
   return string unless string.empty?
+  return nil
 end
